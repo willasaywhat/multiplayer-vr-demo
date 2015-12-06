@@ -1,5 +1,9 @@
 # multiplayer-vr-demo
 
+## Why the fork?
+
+Because tetsu really likes donkeys so we made the horse a donkey.
+
 ## What's this?
 
 A small demo where multiple people can experience WebVR together.
