@@ -138,9 +138,9 @@ module.exports.init = function(params) {
     me = World.getCamera()
     scene = World.getScene()
 
-    // Horse for players
+    // Donkey for players
     var loader = new OBJMTLLoader()
-    loader.load('models/horse/horsebrownhair.obj', 'models/horse/horsebrownhair.mtl', function(mesh) {
+    loader.load('models/Donkey/donkey.obj', 'models/Donkey/donkey.mtl', function(mesh) {
       mesh.rotation.y = -Math.PI/2
       playerModel = mesh
       resolve()

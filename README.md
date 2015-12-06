@@ -7,7 +7,7 @@ Because tetsu really likes donkeys so we made the horse a donkey.
 ## What's this?
 
 A small demo where multiple people can experience WebVR together.
-Oh, and fly around as horses.
+Oh, and fly around as donkeys.
 
 ## How is it structured?
 
@@ -28,6 +28,7 @@ Oh, and fly around as horses.
 │   │   └── vr-effect.js
 │   ├── models
 │   │   ├── horse
+│   │   ├── Donkey
 │   ├── sky
 │   └── webvr-polyfill.js
 ├── msg-types.js
