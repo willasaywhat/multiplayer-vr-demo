@@ -143,6 +143,8 @@ module.exports.init = function(params) {
     loader.load('models/Donkey/donkey.obj', 'models/Donkey/donkey.mtl', function(mesh) {
       mesh.rotation.y = -Math.PI/2
       playerModel = mesh
+	  window.donkey = mesh
+	  window.world = World
       resolve()
     })
 
